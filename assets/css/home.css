@@ -1,0 +1,177 @@
+﻿/* stores */
+
+#cbg-stores {
+	position: relative;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#cbg-stores .cbg-bg {
+	position: absolute;
+	width: 104%;
+	height: 800px;
+	left: -2%;
+	top: -40px;
+}
+
+#cbg-stores .cbg-bg .layer {
+	width: 100%;
+	height: 100%;
+	background: #333 url('../../img/airpods_large.jpg');
+	background-position: center top;
+}
+
+#cbg-stores .cbg-wrapper {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#cbg-stores h2 {
+	margin: 70px 0;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+}
+
+#cbg-stores h2 span {
+	display: block;
+	width: 110px;
+	height: 110px;
+	margin: 0px auto;
+	margin-bottom: 1em;
+	background: url('http://consumer-res.huaweistatic.com/cn/assets/cbg/images/sprites_2.png') no-repeat;
+}
+
+#cbg-stores ul.figures {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#cbg-stores ul.figures li {
+	width: 33.33%;
+	font-size: 1.2em;
+	text-align: center;
+	border-right: #505050 solid 1px;
+}
+
+#cbg-stores ul.figures li.cbg-last {
+	width: 33.0%;
+	border-right: none;
+}
+
+#cbg-stores ul.figures li em {
+	display: block;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+}
+
+#cbg-stores form {
+	margin: 70px 0;
+	text-align: center;
+}
+
+#cbg-stores form .sbHolder {
+	display: inline-block;
+	width: 20%;
+	min-width: 220px;
+	margin: 0.5em;
+	text-align: left;
+	font-size: 1.4em;
+	font-family: inherit;
+}
+
+#cbg-stores form .sbSelector,
+#cbg-stores form .sbOptions {
+	width: 100%;
+}
+
+#cbg-stores form .sbOptions {
+	max-height: 170px!important;
+}
+
+#cbg-stores form div.actions {
+	margin: 4em 0;
+}
+
+#cbg-stores form input[type=submit] {
+	margin: 0 1em;
+}
+
+#cbg-stores h3 {
+	width: 8em;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+	padding-bottom: 0.5em;
+	border-bottom: #c52525 solid 2px;
+}
+
+
+
+#cbg-stores .online-stores ul {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#cbg-stores .online-stores ul li {
+	width: 33%;
+	height: 63px;
+	text-align: center;
+	border-right: #333 solid 1px;
+	position: relative;
+}
+
+#cbg-stores .online-stores ul li.cbg-last {
+	border-right: none;
+}
+
+#cbg-stores .online-stores ul li.col-1 a {
+	/* VMALL */
+	width: 338px;
+	height: 63px;
+	background-position: -250px -383px;
+	margin-left: 0px;
+	cursor: none;
+}
+
+#cbg-stores .online-stores ul li.col-1 p {
+	position: absolute;
+	top: 28px;
+	left: 80px;
+	text-align: left;
+	line-height: 18px;
+}
+
+#cbg-stores .online-stores ul li.col-1 p .p-s14 {
+	font-size: 14px;
+}
+
+#cbg-stores .online-stores ul li.col-1 p .p-s10 {
+	font-size: 10px;
+}
+
+#cbg-stores .online-stores ul li.col-2 {
+	position: relative;
+}
+
+#cbg-stores .online-stores ul li.col-2 .qrcode {
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: -150px;
+	padding: 5px;
+	border: solid 1px #999;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+	background: #fff;
+}
+
+#cbg-stores .online-stores ul li.col-2 .qrcode b {
+	display: block;
+	width: 120px;
+	height: 120px;
+	background: url(../../assets/img/weixin1.png) no-repeat;
+}

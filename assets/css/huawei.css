@@ -1,0 +1,926 @@
+html,
+body {
+	width: 100%;
+}
+
+
+/*顶部导航开始*/
+
+.am-topbar {
+	height: 40px;
+	z-index: 2;
+}
+
+.am-topbar-nav a {
+	font-size: 18px;
+}
+
+.am-topbar-collapse {
+	background: #fff;
+}
+
+.am-nav > li > a:hover,
+.am-nav > li > a:focus {
+	color: #C52525;
+	border-bottom: 3px solid #C52525;
+	background: #fff;
+}
+
+.am-topbar-nav > li > a:after {
+	border-bottom: 10px solid #C52525!important;
+}
+
+.am-topbar-nav > li.am-active > a,
+.am-topbar-nav > li.am-active > a:hover,
+.am-topbar-nav > li.am-active > a:focus {
+	color: #C52525;
+	border-bottom-color: #C52525!important;
+	border-bottom: 3px solid #C52525;
+}
+
+.am-nav > li.am-active > a,
+.am-nav > li.am-active > a:hover,
+.am-nav > li.am-active > a:focus {
+	background: #fff;
+}
+
+
+/*顶部导航结束*/
+
+
+/*banner图切换开始*/
+
+.banner {
+	height: 600px;
+}
+
+.am-slides {
+	width: 100%;
+	display: block;
+}
+
+.am-slider-images {
+	height: 600px;
+	background-size: 100% 100%;
+}
+
+.banner .am-prev {
+	left: 50px;
+}
+
+
+/*banner图切换结束*/
+
+.am-container {
+	max-width: 1908px;
+	padding: 0!important;
+}
+
+.kapian img {
+	box-sizing: border-box;
+	width: 100%;
+	border: 4px solid #fff;
+}
+
+@media only screen and (min-width: 641px) [class*="am-u-"] {
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+
+[class*="am-u-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/*寻找华为开始*/
+
+.cbg-wrapper h2 {
+	font-size: 30px!important;
+}
+
+.cbg-wrapper .figure li em,
+.cbg-wrapper .figures li {
+	font-size: 20px!important;
+}
+
+.cbg-wrapper .cbg-store-selector {
+	font-size: 14px;
+}
+
+.actions {
+	text-align: center;
+	padding: 30px 0;
+	font-size: 14px;
+}
+
+.contact {
+	font-size: 16px!important;
+	border-bottom: 2px solid #C52525;
+}
+
+.col-1 {
+	background: url(../../img/sprites_cbg_1.png) center;
+	background-position: -850px -382px;
+}
+
+.col-2 a {
+	background: url(../../img/sprites_cbg_1.png)!important;
+	background-position: -843px -467px!important;
+	width: 149px;
+	height: 63px;
+	margin: 0 auto;
+}
+
+a#wx {
+	width: 149px!important;
+	height: 63px!important;
+}
+
+#cbg-stores .online-stores ul li a {
+	display: block;
+	text-indent: -9999px;
+	background: url(../../img/sprites_cbg_1.png) no-repeat;
+}
+
+.col-3 a {
+	background: url(../../img/sprites_cbg_1.png)!important;
+	background-position: -1024px -467px!important;
+	width: 149px;
+	height: 63px;
+	margin: 0 auto;
+}
+
+.qrcode {
+	background: url(../../img/img_con_cn_weixin.png)!important;
+	background-size: 100% 100%!important;
+}
+
+.online-stores {
+	margin: 20px 0;
+}
+
+.y-act-1,
+.y-act-2 {
+	background: #666;
+	color: #eee;
+}
+
+
+/*寻找华为结束*/
+
+
+/*返回顶部开始*/
+
+.am-gotop.am-gotop-default a {
+	background: #C52525!important;
+	color: #fff;
+}
+
+
+/*返回顶部结束*/
+
+.picBox {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.picL {
+	overflow: hidden;
+	zoom: 1;
+	margin-left: -1px;
+}
+
+.picL li {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	display: inline;
+	width: 199px;
+	margin: 1px 0 0 1px;
+	zoom: 1
+}
+
+.picL li .text {
+	background: #ff5a58;
+	position: absolute;
+	width: 199px;
+	height: 132px;
+	top: 149px;
+	left: 0;
+}
+
+.picL li .text b {
+	background: #ca2c2a;
+	padding: 5px 15px;
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-weight: 100;
+}
+
+.picL li .text p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.picL li .text a {
+	color: #fff;
+	display: block;
+	height: 80px;
+	padding: 20px;
+}
+
+.am-slider-carousel li {
+	margin-right: 5px;
+}
+
+.am-container.dibu {
+	background-image: url(../../img/logo.png);
+	background-position: 90% 90%;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	margin: 0;
+	height: 250px;
+}
+
+
+/*底部赞助商开始*/
+
+.dibu li {
+	color: #fff;
+}
+
+.dibu li a {
+	color: #ccc;
+}
+
+.dibu .title {
+	font-size: 18px;
+}
+
+.dibu li a:hover {
+	color: #fff;
+	-webkit-animation: xzyi 500ms ease-in;
+	animation: xzyi 500ms ease-in;
+}
+
+@keyframes xzyi {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 15px;
+	}
+}
+
+.am-thumbnails > li {
+	padding: 0 0 1rem 4.5rem;
+}
+
+.am-icon-weibo {
+	color: #fff!important;
+	width: 80px;
+}
+
+.am-icon-weixin {
+	color: #fff!important;
+	width: 80px;
+}
+
+.am-icon-hourglass-half {
+	color: #fff!important;
+	width: 80px;
+}
+
+.am-icon-qq {
+	color: #fff!important;
+	width: 80px;
+}
+
+.dibu p {
+	color: #fff;
+	margin: 15px 0;
+	font-size: 18px;
+}
+
+
+/*底部赞助商结束*/
+
+
+/*最底部小黑条开始*/
+
+.hengtiao {
+	height: 44px;
+	line-height: 44px;
+	background: #000;
+}
+
+.hengtiao a {
+	color: #fff;
+}
+
+.hengtiao p {
+	color: #999;
+}
+
+.am-cf {
+	padding-left: 100px;
+}
+
+.left {
+	float: left;
+}
+
+.hengtiao .am-icon-flag {
+	color: #f00;
+	margin-left: 20px;
+}
+
+
+/*最底部小黑条结束*/
+
+
+/*顶部导航下拉菜单开始*/
+
+
+/*智能手机*/
+
+.content {
+	position: fixed;
+	top: 40px;
+	width: 100%;
+}
+
+.title1 {
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.title2 {
+	font-size: 22px;
+	color: #f00;
+	text-align: center;
+}
+
+.shouji .am-u-lg-2,
+.shouji .am-u-lg-3 {
+	border: 1px solid #999;
+	background: rgba(0, 0, 0, 0.7);
+	height: 400px;
+}
+
+.shouji .am-u-lg-12 {
+	height: 44px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	line-height: 44px;
+}
+
+.content .title3 {
+	color: #fff;
+	margin: 10px 0;
+}
+
+.content a:hover {
+	color: #fff;
+}
+
+.content .title4 {
+	color: #fff;
+	margin: 15px;
+	font-size: 18px;
+	text-align: left!important;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.kong {
+	height: 40px;
+}
+
+.huafen {
+	background: rgba(0, 0, 0, 0.3)!important;
+	height: 444px!important;border:1px solid #fff;
+}
+
+.shouji .am-u-lg-9 {
+	height: 400px;
+}
+
+
+/*笔记本*/
+
+.bijiben .am-u-lg-7,
+.bijiben .am-u-lg-5 {
+	border: 1px solid #999;
+	background: rgba(0, 0, 0, 0.7);
+	height: 400px;
+}
+
+.bijiben .am-u-lg-12 {
+	height: 44px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	font-size: 18px;
+	line-height: 44px;
+}
+
+
+/*穿戴设备*/
+
+.shebei .am-u-lg-7,
+.shebei .am-u-lg-5 {
+	border: 1px solid #999;
+	background: rgba(0, 0, 0, 0.7);
+	height: 400px;
+}
+
+.shebei .am-u-lg-12 {
+	height: 44px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	font-size: 18px;
+	line-height: 44px;
+}
+
+
+/*更多产品*/
+
+.more .am-u-lg-4 {
+	border: 1px solid #999;
+	background: rgba(0, 0, 0, 0.7);
+	height: 444px;
+}
+
+
+/*软件应用*/
+
+.ruanjian .am-u-lg-3 {
+	border: 1px solid #999;
+	background: rgba(0, 0, 0, 0.7);
+	height: 444px;
+}
+
+.am-u-lg-12 {
+	border-bottom: 1px solid #999;border-left: 1px solid #999;
+}
+
+
+/*顶部导航下拉菜单结束*/
+
+
+/*视频播放开始*/
+
+.shipin {
+	position: relative;
+}
+
+.play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	margin-left: -35px;
+	margin-top: -35px;
+}
+
+.pause {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	display: none;
+	margin-left: -35px;
+	margin-top: -35px;
+}
+
+
+/*视频播放结束*/
+
+
+/*图片hover效果基本样式开始*/
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*图片hover效果基本样式结束*/
+
+
+/*Roxy效果css3开始*/
+
+
+figure.effect-roxy {
+	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+}
+
+figure.effect-roxy img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	height:780px;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50px,0,0);
+	transform: translate3d(-50px,0,0);
+}
+
+figure.effect-roxy figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
+}
+
+figure.effect-roxy figcaption {
+	padding: 3em;
+	text-align: left;
+}
+
+figure.effect-roxy h2 {
+	padding: 30% 0 10px 0;
+}
+
+figure.effect-roxy p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+}
+
+figure.effect-roxy:hover img {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-roxy:hover figcaption::before,
+figure.effect-roxy:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+/*Roxy效果css3结束*/
+
+
+/* Layla开始*/
+figure.effect-layla{background:rgba(0,0,0,0.5);}
+figure.effect-layla img {
+	height: 390px;
+}
+
+figure.effect-layla figcaption {
+	padding: 3em;
+}
+
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+	position: absolute;
+	content: '';
+	opacity: 0;
+}
+
+figure.effect-layla figcaption::before {
+	top: 50px;
+	right: 30px;
+	bottom: 50px;
+	left: 30px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0, 1);
+	transform: scale(0, 1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+figure.effect-layla figcaption::after {
+	top: 30px;
+	right: 50px;
+	bottom: 30px;
+	left: 50px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1, 0);
+	transform: scale(1, 0);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+figure.effect-layla h2 {
+	padding-top: 26%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-layla p {
+	padding: 0.5em 2em;
+	text-transform: none;
+	opacity: 0;
+	-webkit-transform: translate3d(0, -10px, 0);
+	transform: translate3d(0, -10px, 0);
+}
+
+figure.effect-layla img,
+figure.effect-layla h2 {
+	-webkit-transform: translate3d(0, -30px, 0);
+	transform: translate3d(0, -30px, 0);
+}
+
+figure.effect-layla img,
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after,
+figure.effect-layla p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-layla:hover img {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+
+/*Layle效果结束*/
+
+
+/*Oscar开始*/
+
+figure.effect-oscar {
+	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+	background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+}
+
+figure.effect-oscar img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-oscar figcaption {
+	padding: 3em;
+	background-color: rgba(58, 52, 42, 0.7);
+	-webkit-transition: background-color 0.35s;
+	transition: background-color 0.35s;
+}
+
+figure.effect-oscar figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+}
+
+figure.effect-oscar h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-oscar:hover figcaption {
+	background-color: rgba(58, 52, 42, 0);
+}
+
+figure.effect-oscar:hover img {
+	opacity: 0.4;
+}
+
+
+/*Oscar结束*/
+
+
+/*Apollo开始*/
+
+figure.effect-apollo {
+	background: #3498db;
+}
+
+figure.effect-apollo img {
+	opacity: 0.95;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.05, 1.05, 1);
+	transform: scale3d(1.05, 1.05, 1);
+}
+
+figure.effect-apollo figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	-webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+	transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+}
+
+figure.effect-apollo p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 3em;
+	padding: 0 1em;
+	max-width: 150px;
+	border-right: 4px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-apollo h2 {
+	text-align: left;
+}
+
+figure.effect-apollo:hover img {
+	opacity: 0.6;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+
+figure.effect-apollo:hover figcaption::before {
+	-webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+	transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+}
+
+figure.effect-apollo:hover p {
+	opacity: 1;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+
+/*apollo结束*/
+
+
+/*Jazz开始*/
+
+figure.effect-jazz {
+	background: -webkit-linear-gradient(-45deg, #f3cf3f 0%, #f33f58 100%);
+	background: linear-gradient(-45deg, #f3cf3f 0%, #f33f58 100%);
+}
+
+figure.effect-jazz img {
+	opacity: 0.9;
+}
+
+figure.effect-jazz figcaption::after,
+figure.effect-jazz img,
+figure.effect-jazz p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-jazz figcaption::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+	transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+figure.effect-jazz h2,
+figure.effect-jazz p {
+	opacity: 1;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+}
+
+figure.effect-jazz h2 {
+	padding-top: 26%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-jazz p {
+	padding: 0.5em 2em;
+	text-transform: none;
+	font-size: 0.85em;
+	opacity: 0;
+}
+
+figure.effect-jazz:hover img {
+	opacity: 0.7;
+	-webkit-transform: scale3d(1.05, 1.05, 1);
+	transform: scale3d(1.05, 1.05, 1);
+}
+
+figure.effect-jazz:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+	transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+}
+
+figure.effect-jazz:hover h2,
+figure.effect-jazz:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+
+
+/*Jazz结束*/
