@@ -19,7 +19,7 @@ background-image:url(../../img/jt_nor.png);background-repeat:no-repeat;backgroun
 
 .infolist .liststyle span:first-child .tall{height:200px;overflow:scroll!important;}
 .over{
-	overflow: scroll!important;height:200px;
+    overflow: scroll!important;height:200px;
 }
 
 

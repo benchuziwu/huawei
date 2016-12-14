@@ -268,6 +268,15 @@ a#wx {
 	animation: xzyi 500ms ease-in;
 }
 
+@-webkit-keyframes xzyi {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 15px;
+	}
+}
+
 @keyframes xzyi {
 	from {
 		margin-left: 0;
@@ -548,16 +557,18 @@ a#wx {
 
 figure.effect-roxy {
 	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+	background: -webkit-linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
 figure.effect-roxy img {
 	max-width: none;
-	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
 	height:780px;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: translate3d(-50px,0,0);
 	transform: translate3d(-50px,0,0);
 }
@@ -571,7 +582,9 @@ figure.effect-roxy figcaption::before {
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: translate3d(-20px,0,0);
 	transform: translate3d(-20px,0,0);
 }
@@ -588,7 +601,9 @@ figure.effect-roxy h2 {
 figure.effect-roxy p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: translate3d(-10px,0,0);
 	transform: translate3d(-10px,0,0);
 }
@@ -633,9 +648,11 @@ figure.effect-layla figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0, 1);
-	transform: scale(0, 1);
+	-ms-transform: scale(0, 1);
+	    transform: scale(0, 1);
 	-webkit-transform-origin: 0 0;
-	transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	    transform-origin: 0 0;
 }
 
 figure.effect-layla figcaption::after {
@@ -646,15 +663,19 @@ figure.effect-layla figcaption::after {
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
 	-webkit-transform: scale(1, 0);
-	transform: scale(1, 0);
+	-ms-transform: scale(1, 0);
+	    transform: scale(1, 0);
 	-webkit-transform-origin: 100% 0;
-	transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	    transform-origin: 100% 0;
 }
 
 figure.effect-layla h2 {
 	padding-top: 26%;
 	-webkit-transition: -webkit-transform 0.35s;
+	transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
+	transition: transform 0.35s, -webkit-transform 0.35s;
 }
 
 figure.effect-layla p {
@@ -676,7 +697,9 @@ figure.effect-layla figcaption::before,
 figure.effect-layla figcaption::after,
 figure.effect-layla p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
 
 figure.effect-layla:hover img {
@@ -689,7 +712,8 @@ figure.effect-layla:hover figcaption::before,
 figure.effect-layla:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-layla:hover h2,
@@ -744,7 +768,9 @@ figure.effect-oscar figcaption::before {
 figure.effect-oscar h2 {
 	margin: 20% 0 10px 0;
 	-webkit-transition: -webkit-transform 0.35s;
+	transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
+	transition: transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: translate3d(0, 100%, 0);
 	transform: translate3d(0, 100%, 0);
 }
@@ -753,9 +779,12 @@ figure.effect-oscar figcaption::before,
 figure.effect-oscar p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: scale(0);
-	transform: scale(0);
+	-ms-transform: scale(0);
+	    transform: scale(0);
 }
 
 figure.effect-oscar:hover h2 {
@@ -767,7 +796,8 @@ figure.effect-oscar:hover figcaption::before,
 figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
-	transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
 }
 
 figure.effect-oscar:hover figcaption {
@@ -791,7 +821,9 @@ figure.effect-apollo {
 figure.effect-apollo img {
 	opacity: 0.95;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 	-webkit-transform: scale3d(1.05, 1.05, 1);
 	transform: scale3d(1.05, 1.05, 1);
 }
@@ -805,7 +837,9 @@ figure.effect-apollo figcaption::before {
 	background: rgba(255, 255, 255, 0.5);
 	content: '';
 	-webkit-transition: -webkit-transform 0.6s;
+	transition: -webkit-transform 0.6s;
 	transition: transform 0.6s;
+	transition: transform 0.6s, -webkit-transform 0.6s;
 	-webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
 	transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
 }
@@ -853,6 +887,7 @@ figure.effect-apollo:hover p {
 
 figure.effect-jazz {
 	background: -webkit-linear-gradient(-45deg, #f3cf3f 0%, #f33f58 100%);
+	background: -webkit-linear-gradient(135deg, #f3cf3f 0%, #f33f58 100%);
 	background: linear-gradient(-45deg, #f3cf3f 0%, #f33f58 100%);
 }
 
@@ -864,7 +899,9 @@ figure.effect-jazz figcaption::after,
 figure.effect-jazz img,
 figure.effect-jazz p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
 
 figure.effect-jazz figcaption::after {
@@ -880,7 +917,8 @@ figure.effect-jazz figcaption::after {
 	-webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
 	transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
 	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
 }
 
 figure.effect-jazz h2,
@@ -893,7 +931,9 @@ figure.effect-jazz p {
 figure.effect-jazz h2 {
 	padding-top: 26%;
 	-webkit-transition: -webkit-transform 0.35s;
+	transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
+	transition: transform 0.35s, -webkit-transform 0.35s;
 }
 
 figure.effect-jazz p {
